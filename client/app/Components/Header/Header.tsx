@@ -23,7 +23,7 @@ function Header() {
           <span role="img" aria-label="wave">
             👋
           </span>
-          {userId ? `Welcome, ${name}!` : "Welcome to Taskfyer"}
+          {userId ? `Welcome, ${name}!` : "Welcome to Synapse!!"}
         </h1>
         <p className="text-sm">
           {userId ? (
@@ -35,7 +35,7 @@ function Header() {
               &nbsp;active tasks
             </>
           ) : (
-            "Please login or register to view your tasks"
+            "Please login or register to view your Study Tasks"
           )}
         </p>
       </div>
@@ -51,12 +51,12 @@ function Header() {
             }
           }}
         >
-          {userId ? "Add a new Task" : "Login / Register"}
+          {userId ? "Add a new Course Task" : "Login / Register"}
         </button>
 
         <div className="flex gap-4 items-center">
           <Link
-            href="https://github.com/Maclinz/taskfyer"
+            href=""
             passHref
             target="_blank"
             rel="noopener noreferrer"
@@ -65,7 +65,7 @@ function Header() {
             {github}
           </Link>
           <Link
-            href="https://github.com/Maclinz/taskfyer"
+            href=""
             passHref
             target="_blank"
             rel="noopener noreferrer"
@@ -74,7 +74,7 @@ function Header() {
             {moon}
           </Link>
           <Link
-            href="https://github.com/Maclinz/taskfyer"
+            href=""
             passHref
             target="_blank"
             rel="noopener noreferrer"

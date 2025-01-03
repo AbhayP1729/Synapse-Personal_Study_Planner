@@ -1,11 +1,12 @@
 {
-  "name": "auth-kit-server",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "nodemon server.js"
+    
   },
   "author": "",
   "license": "ISC",
